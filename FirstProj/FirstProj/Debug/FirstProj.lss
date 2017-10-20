@@ -1,0 +1,1033 @@
+
+AVRASM ver. 2.2.6  E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm Fri Oct 20 18:36:30 2017
+
+[builtin](2): Including file 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m328pdef.inc'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): Including file 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc'
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(47): warning: Preprocessor: Redefinition of macro '__PART_NAME__'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(49): error: Invalid redefinition of 'SIGNATURE_000'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(50): error: Invalid redefinition of 'SIGNATURE_001'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(51): error: Invalid redefinition of 'SIGNATURE_002'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(66): error: Invalid redefinition of 'UDR0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(67): error: Invalid redefinition of 'UBRR0L'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(68): error: Invalid redefinition of 'UBRR0H'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(69): error: Invalid redefinition of 'UCSR0C'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(70): error: Invalid redefinition of 'UCSR0B'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(71): error: Invalid redefinition of 'UCSR0A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(75): error: Invalid redefinition of 'ASSR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(76): error: Invalid redefinition of 'OCR2A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(77): error: Invalid redefinition of 'TCNT2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(78): error: Invalid redefinition of 'TCCR2A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(79): error: Invalid redefinition of 'OCR1BL'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(80): error: Invalid redefinition of 'OCR1BH'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(81): error: Invalid redefinition of 'OCR1AL'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(82): error: Invalid redefinition of 'OCR1AH'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(83): error: Invalid redefinition of 'ICR1L'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(84): error: Invalid redefinition of 'ICR1H'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(85): error: Invalid redefinition of 'TCNT1L'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(86): error: Invalid redefinition of 'TCNT1H'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(87): error: Invalid redefinition of 'TCCR1C'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(88): error: Invalid redefinition of 'TCCR1B'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(89): error: Invalid redefinition of 'TCCR1A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(90): error: Invalid redefinition of 'DIDR1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(91): error: Invalid redefinition of 'DIDR0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(92): error: Invalid redefinition of 'ADMUX'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(93): error: Invalid redefinition of 'ADCSRB'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(94): error: Invalid redefinition of 'ADCSRA'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(95): error: Invalid redefinition of 'ADCH'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(96): error: Invalid redefinition of 'ADCL'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(97): error: Invalid redefinition of 'TIMSK2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(98): error: Invalid redefinition of 'TIMSK1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(99): error: Invalid redefinition of 'TIMSK0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(100): error: Invalid redefinition of 'PCMSK0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(101): error: Invalid redefinition of 'PCMSK1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(102): error: Invalid redefinition of 'EICRA'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(103): error: Invalid redefinition of 'OSCCAL'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(104): error: Invalid redefinition of 'PRR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(105): error: Invalid redefinition of 'CLKPR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(107): error: Invalid redefinition of 'SREG'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(108): error: Invalid redefinition of 'SPL'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(109): error: Invalid redefinition of 'SPH'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(110): error: Invalid redefinition of 'SPMCSR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(111): error: Invalid redefinition of 'MCUCR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(112): error: Invalid redefinition of 'MCUSR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(113): error: Invalid redefinition of 'SMCR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(115): error: Invalid redefinition of 'ACSR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(116): error: Invalid redefinition of 'SPDR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(117): error: Invalid redefinition of 'SPSR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(118): error: Invalid redefinition of 'SPCR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(119): error: Invalid redefinition of 'GPIOR2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(120): error: Invalid redefinition of 'GPIOR1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(121): error: Invalid redefinition of 'OCR0A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(122): error: Invalid redefinition of 'TCNT0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(123): error: Invalid redefinition of 'TCCR0A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(124): error: Invalid redefinition of 'GTCCR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(125): error: Invalid redefinition of 'EEARL'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(126): error: Invalid redefinition of 'EEARH'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(127): error: Invalid redefinition of 'EEDR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(128): error: Invalid redefinition of 'EECR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(129): error: Invalid redefinition of 'GPIOR0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(130): error: Invalid redefinition of 'EIMSK'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(131): error: Invalid redefinition of 'EIFR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(132): error: Invalid redefinition of 'TIFR2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(133): error: Invalid redefinition of 'TIFR1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(134): error: Invalid redefinition of 'TIFR0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(144): error: Invalid redefinition of 'PORTD'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(145): error: Invalid redefinition of 'DDRD'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(146): error: Invalid redefinition of 'PIND'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(147): error: Invalid redefinition of 'PORTC'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(148): error: Invalid redefinition of 'DDRC'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(149): error: Invalid redefinition of 'PINC'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(150): error: Invalid redefinition of 'PORTB'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(151): error: Invalid redefinition of 'DDRB'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(152): error: Invalid redefinition of 'PINB'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(162): error: Invalid redefinition of 'MUX0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(163): error: Invalid redefinition of 'MUX1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(164): error: Invalid redefinition of 'MUX2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(165): error: Invalid redefinition of 'MUX3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(167): error: Invalid redefinition of 'ADLAR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(168): error: Invalid redefinition of 'REFS0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(169): error: Invalid redefinition of 'REFS1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(172): error: Invalid redefinition of 'ADPS0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(173): error: Invalid redefinition of 'ADPS1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(174): error: Invalid redefinition of 'ADPS2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(175): error: Invalid redefinition of 'ADIE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(176): error: Invalid redefinition of 'ADIF'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(177): error: Invalid redefinition of 'ADATE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(178): error: Invalid redefinition of 'ADSC'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(179): error: Invalid redefinition of 'ADEN'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(182): error: Invalid redefinition of 'ADCH0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(183): error: Invalid redefinition of 'ADCH1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(184): error: Invalid redefinition of 'ADCH2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(185): error: Invalid redefinition of 'ADCH3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(186): error: Invalid redefinition of 'ADCH4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(187): error: Invalid redefinition of 'ADCH5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(188): error: Invalid redefinition of 'ADCH6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(189): error: Invalid redefinition of 'ADCH7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(192): error: Invalid redefinition of 'ADCL0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(193): error: Invalid redefinition of 'ADCL1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(194): error: Invalid redefinition of 'ADCL2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(195): error: Invalid redefinition of 'ADCL3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(196): error: Invalid redefinition of 'ADCL4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(197): error: Invalid redefinition of 'ADCL5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(198): error: Invalid redefinition of 'ADCL6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(199): error: Invalid redefinition of 'ADCL7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(202): error: Invalid redefinition of 'ADTS0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(203): error: Invalid redefinition of 'ADTS1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(204): error: Invalid redefinition of 'ADTS2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(207): error: Invalid redefinition of 'ADC0D'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(208): error: Invalid redefinition of 'ADC1D'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(209): error: Invalid redefinition of 'ADC2D'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(210): error: Invalid redefinition of 'ADC3D'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(211): error: Invalid redefinition of 'ADC4D'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(212): error: Invalid redefinition of 'ADC5D'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(219): error: Invalid redefinition of 'ACME'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(222): error: Invalid redefinition of 'ACIS0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(223): error: Invalid redefinition of 'ACIS1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(224): error: Invalid redefinition of 'ACIC'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(225): error: Invalid redefinition of 'ACIE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(226): error: Invalid redefinition of 'ACI'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(227): error: Invalid redefinition of 'ACO'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(228): error: Invalid redefinition of 'ACBG'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(229): error: Invalid redefinition of 'ACD'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(232): error: Invalid redefinition of 'AIN0D'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(233): error: Invalid redefinition of 'AIN1D'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(251): error: Invalid redefinition of 'MPCM0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(253): error: Invalid redefinition of 'U2X0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(255): error: Invalid redefinition of 'UPE0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(257): error: Invalid redefinition of 'DOR0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(259): error: Invalid redefinition of 'FE0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(261): error: Invalid redefinition of 'UDRE0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(263): error: Invalid redefinition of 'TXC0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(265): error: Invalid redefinition of 'RXC0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(271): error: Invalid redefinition of 'TXB80'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(273): error: Invalid redefinition of 'RXB80'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(275): error: Invalid redefinition of 'UCSZ02'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(277): error: Invalid redefinition of 'TXEN0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(279): error: Invalid redefinition of 'RXEN0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(281): error: Invalid redefinition of 'UDRIE0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(283): error: Invalid redefinition of 'TXCIE0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(285): error: Invalid redefinition of 'RXCIE0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(290): error: Invalid redefinition of 'UCPOL0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(292): error: Invalid redefinition of 'UCSZ00'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(294): error: Invalid redefinition of 'UCSZ01'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(296): error: Invalid redefinition of 'USBS0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(298): error: Invalid redefinition of 'UPM00'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(300): error: Invalid redefinition of 'UPM01'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(302): error: Invalid redefinition of 'UMSEL0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(359): error: Invalid redefinition of 'SPDR0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(360): error: Invalid redefinition of 'SPDR1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(361): error: Invalid redefinition of 'SPDR2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(362): error: Invalid redefinition of 'SPDR3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(363): error: Invalid redefinition of 'SPDR4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(364): error: Invalid redefinition of 'SPDR5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(365): error: Invalid redefinition of 'SPDR6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(366): error: Invalid redefinition of 'SPDR7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(369): error: Invalid redefinition of 'SPI2X'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(370): error: Invalid redefinition of 'WCOL'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(371): error: Invalid redefinition of 'SPIF'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(374): error: Invalid redefinition of 'SPR0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(375): error: Invalid redefinition of 'SPR1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(376): error: Invalid redefinition of 'CPHA'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(377): error: Invalid redefinition of 'CPOL'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(378): error: Invalid redefinition of 'MSTR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(379): error: Invalid redefinition of 'DORD'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(380): error: Invalid redefinition of 'SPE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(381): error: Invalid redefinition of 'SPIE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(387): error: Invalid redefinition of 'SPMEN'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(388): error: Invalid redefinition of 'PGERS'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(389): error: Invalid redefinition of 'PGWRT'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(390): error: Invalid redefinition of 'BLBSET'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(391): error: Invalid redefinition of 'RWWSRE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(393): error: Invalid redefinition of 'RWWSB'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(395): error: Invalid redefinition of 'SPMIE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(419): error: Invalid redefinition of 'ISC00'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(420): error: Invalid redefinition of 'ISC01'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(423): error: Invalid redefinition of 'INT0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(424): error: Invalid redefinition of 'PCIE0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(425): error: Invalid redefinition of 'PCIE1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(426): error: Invalid redefinition of 'PCIE2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(430): error: Invalid redefinition of 'INTF0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(431): error: Invalid redefinition of 'PCIF0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(432): error: Invalid redefinition of 'PCIF1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(433): error: Invalid redefinition of 'PCIF2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(437): error: Invalid redefinition of 'PCINT8'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(438): error: Invalid redefinition of 'PCINT9'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(439): error: Invalid redefinition of 'PCINT10'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(440): error: Invalid redefinition of 'PCINT11'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(441): error: Invalid redefinition of 'PCINT12'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(442): error: Invalid redefinition of 'PCINT13'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(443): error: Invalid redefinition of 'PCINT14'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(447): error: Invalid redefinition of 'PCINT0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(448): error: Invalid redefinition of 'PCINT1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(449): error: Invalid redefinition of 'PCINT2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(450): error: Invalid redefinition of 'PCINT3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(451): error: Invalid redefinition of 'PCINT4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(452): error: Invalid redefinition of 'PCINT5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(453): error: Invalid redefinition of 'PCINT6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(454): error: Invalid redefinition of 'PCINT7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(459): error: Invalid redefinition of 'EEDR0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(460): error: Invalid redefinition of 'EEDR1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(461): error: Invalid redefinition of 'EEDR2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(462): error: Invalid redefinition of 'EEDR3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(463): error: Invalid redefinition of 'EEDR4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(464): error: Invalid redefinition of 'EEDR5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(465): error: Invalid redefinition of 'EEDR6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(466): error: Invalid redefinition of 'EEDR7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(469): error: Invalid redefinition of 'EERE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(472): error: Invalid redefinition of 'EERIE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(517): error: Invalid redefinition of 'PORTB0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(518): error: Invalid redefinition of 'PB0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(519): error: Invalid redefinition of 'PORTB1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(520): error: Invalid redefinition of 'PB1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(521): error: Invalid redefinition of 'PORTB2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(522): error: Invalid redefinition of 'PB2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(523): error: Invalid redefinition of 'PORTB3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(524): error: Invalid redefinition of 'PB3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(525): error: Invalid redefinition of 'PORTB4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(526): error: Invalid redefinition of 'PB4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(527): error: Invalid redefinition of 'PORTB5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(528): error: Invalid redefinition of 'PB5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(529): error: Invalid redefinition of 'PORTB6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(530): error: Invalid redefinition of 'PB6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(531): error: Invalid redefinition of 'PORTB7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(532): error: Invalid redefinition of 'PB7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(535): error: Invalid redefinition of 'DDB0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(536): error: Invalid redefinition of 'DDB1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(537): error: Invalid redefinition of 'DDB2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(538): error: Invalid redefinition of 'DDB3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(539): error: Invalid redefinition of 'DDB4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(540): error: Invalid redefinition of 'DDB5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(541): error: Invalid redefinition of 'DDB6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(542): error: Invalid redefinition of 'DDB7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(545): error: Invalid redefinition of 'PINB0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(546): error: Invalid redefinition of 'PINB1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(547): error: Invalid redefinition of 'PINB2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(548): error: Invalid redefinition of 'PINB3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(549): error: Invalid redefinition of 'PINB4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(550): error: Invalid redefinition of 'PINB5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(551): error: Invalid redefinition of 'PINB6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(552): error: Invalid redefinition of 'PINB7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(557): error: Invalid redefinition of 'PORTC0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(558): error: Invalid redefinition of 'PC0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(559): error: Invalid redefinition of 'PORTC1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(560): error: Invalid redefinition of 'PC1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(561): error: Invalid redefinition of 'PORTC2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(562): error: Invalid redefinition of 'PC2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(563): error: Invalid redefinition of 'PORTC3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(564): error: Invalid redefinition of 'PC3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(565): error: Invalid redefinition of 'PORTC4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(566): error: Invalid redefinition of 'PC4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(567): error: Invalid redefinition of 'PORTC5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(568): error: Invalid redefinition of 'PC5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(569): error: Invalid redefinition of 'PORTC6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(570): error: Invalid redefinition of 'PC6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(575): error: Invalid redefinition of 'DDC0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(576): error: Invalid redefinition of 'DDC1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(577): error: Invalid redefinition of 'DDC2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(578): error: Invalid redefinition of 'DDC3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(579): error: Invalid redefinition of 'DDC4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(580): error: Invalid redefinition of 'DDC5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(581): error: Invalid redefinition of 'DDC6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(585): error: Invalid redefinition of 'PINC0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(586): error: Invalid redefinition of 'PINC1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(587): error: Invalid redefinition of 'PINC2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(588): error: Invalid redefinition of 'PINC3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(589): error: Invalid redefinition of 'PINC4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(590): error: Invalid redefinition of 'PINC5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(591): error: Invalid redefinition of 'PINC6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(597): error: Invalid redefinition of 'PORTD0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(598): error: Invalid redefinition of 'PD0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(599): error: Invalid redefinition of 'PORTD1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(600): error: Invalid redefinition of 'PD1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(601): error: Invalid redefinition of 'PORTD2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(602): error: Invalid redefinition of 'PD2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(603): error: Invalid redefinition of 'PORTD3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(604): error: Invalid redefinition of 'PD3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(605): error: Invalid redefinition of 'PORTD4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(606): error: Invalid redefinition of 'PD4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(607): error: Invalid redefinition of 'PORTD5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(608): error: Invalid redefinition of 'PD5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(609): error: Invalid redefinition of 'PORTD6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(610): error: Invalid redefinition of 'PD6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(611): error: Invalid redefinition of 'PORTD7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(612): error: Invalid redefinition of 'PD7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(615): error: Invalid redefinition of 'DDD0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(616): error: Invalid redefinition of 'DDD1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(617): error: Invalid redefinition of 'DDD2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(618): error: Invalid redefinition of 'DDD3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(619): error: Invalid redefinition of 'DDD4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(620): error: Invalid redefinition of 'DDD5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(621): error: Invalid redefinition of 'DDD6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(622): error: Invalid redefinition of 'DDD7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(625): error: Invalid redefinition of 'PIND0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(626): error: Invalid redefinition of 'PIND1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(627): error: Invalid redefinition of 'PIND2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(628): error: Invalid redefinition of 'PIND3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(629): error: Invalid redefinition of 'PIND4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(630): error: Invalid redefinition of 'PIND5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(631): error: Invalid redefinition of 'PIND6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(632): error: Invalid redefinition of 'PIND7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(746): error: Invalid redefinition of 'CS00'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(747): error: Invalid redefinition of 'CS01'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(748): error: Invalid redefinition of 'CS02'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(749): error: Invalid redefinition of 'WGM01'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(750): error: Invalid redefinition of 'COM0A0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(751): error: Invalid redefinition of 'COM0A1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(752): error: Invalid redefinition of 'WGM00'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(753): error: Invalid redefinition of 'FOC0A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(756): error: Invalid redefinition of 'TCNT0_0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(757): error: Invalid redefinition of 'TCNT0_1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(758): error: Invalid redefinition of 'TCNT0_2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(759): error: Invalid redefinition of 'TCNT0_3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(760): error: Invalid redefinition of 'TCNT0_4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(761): error: Invalid redefinition of 'TCNT0_5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(762): error: Invalid redefinition of 'TCNT0_6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(763): error: Invalid redefinition of 'TCNT0_7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(776): error: Invalid redefinition of 'TOIE0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(777): error: Invalid redefinition of 'OCIE0A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(780): error: Invalid redefinition of 'TOV0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(781): error: Invalid redefinition of 'OCF0A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(785): error: Invalid redefinition of 'PSR10'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(789): error: Invalid redefinition of 'TSM'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(794): error: Invalid redefinition of 'TOIE1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(795): error: Invalid redefinition of 'OCIE1A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(796): error: Invalid redefinition of 'OCIE1B'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(797): error: Invalid redefinition of 'ICIE1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(800): error: Invalid redefinition of 'TOV1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(801): error: Invalid redefinition of 'OCF1A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(802): error: Invalid redefinition of 'OCF1B'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(803): error: Invalid redefinition of 'ICF1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(806): error: Invalid redefinition of 'WGM10'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(807): error: Invalid redefinition of 'WGM11'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(808): error: Invalid redefinition of 'COM1B0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(809): error: Invalid redefinition of 'COM1B1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(810): error: Invalid redefinition of 'COM1A0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(811): error: Invalid redefinition of 'COM1A1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(814): error: Invalid redefinition of 'CS10'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(815): error: Invalid redefinition of 'CS11'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(816): error: Invalid redefinition of 'CS12'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(817): error: Invalid redefinition of 'WGM12'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(818): error: Invalid redefinition of 'WGM13'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(819): error: Invalid redefinition of 'ICES1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(820): error: Invalid redefinition of 'ICNC1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(823): error: Invalid redefinition of 'FOC1B'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(824): error: Invalid redefinition of 'FOC1A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(829): error: Invalid redefinition of 'TOIE2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(830): error: Invalid redefinition of 'OCIE2A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(833): error: Invalid redefinition of 'TOV2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(834): error: Invalid redefinition of 'OCF2A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(837): error: Invalid redefinition of 'CS20'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(838): error: Invalid redefinition of 'CS21'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(839): error: Invalid redefinition of 'CS22'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(840): error: Invalid redefinition of 'WGM21'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(841): error: Invalid redefinition of 'COM2A0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(842): error: Invalid redefinition of 'COM2A1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(843): error: Invalid redefinition of 'WGM20'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(844): error: Invalid redefinition of 'FOC2A'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(847): error: Invalid redefinition of 'TCNT2_0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(848): error: Invalid redefinition of 'TCNT2_1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(849): error: Invalid redefinition of 'TCNT2_2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(850): error: Invalid redefinition of 'TCNT2_3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(851): error: Invalid redefinition of 'TCNT2_4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(852): error: Invalid redefinition of 'TCNT2_5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(853): error: Invalid redefinition of 'TCNT2_6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(854): error: Invalid redefinition of 'TCNT2_7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(867): error: Invalid redefinition of 'PSR2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(872): error: Invalid redefinition of 'TCN2UB'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(873): error: Invalid redefinition of 'AS2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(874): error: Invalid redefinition of 'EXCLK'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(879): error: Invalid redefinition of 'WDTCSR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(880): error: Invalid redefinition of 'WDP0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(881): error: Invalid redefinition of 'WDP1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(882): error: Invalid redefinition of 'WDP2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(883): error: Invalid redefinition of 'WDE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(884): error: Invalid redefinition of 'WDCE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(890): error: Invalid redefinition of 'SREG_C'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(891): error: Invalid redefinition of 'SREG_Z'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(892): error: Invalid redefinition of 'SREG_N'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(893): error: Invalid redefinition of 'SREG_V'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(894): error: Invalid redefinition of 'SREG_S'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(895): error: Invalid redefinition of 'SREG_H'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(896): error: Invalid redefinition of 'SREG_T'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(897): error: Invalid redefinition of 'SREG_I'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(900): error: Invalid redefinition of 'IVCE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(901): error: Invalid redefinition of 'IVSEL'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(902): error: Invalid redefinition of 'PUD'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(903): error: Invalid redefinition of 'BODSE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(904): error: Invalid redefinition of 'BODS'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(908): error: Invalid redefinition of 'PORF'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(909): error: Invalid redefinition of 'EXTRF'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(910): error: Invalid redefinition of 'BORF'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(911): error: Invalid redefinition of 'WDRF'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(915): error: Invalid redefinition of 'CAL0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(916): error: Invalid redefinition of 'CAL1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(917): error: Invalid redefinition of 'CAL2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(918): error: Invalid redefinition of 'CAL3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(919): error: Invalid redefinition of 'CAL4'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(920): error: Invalid redefinition of 'CAL5'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(921): error: Invalid redefinition of 'CAL6'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(922): error: Invalid redefinition of 'CAL7'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(925): error: Invalid redefinition of 'CLKPS0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(926): error: Invalid redefinition of 'CLKPS1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(927): error: Invalid redefinition of 'CLKPS2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(928): error: Invalid redefinition of 'CLKPS3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(929): error: Invalid redefinition of 'CLKPCE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(932): error: Invalid redefinition of 'PRADC'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(933): error: Invalid redefinition of 'PRUSART0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(934): error: Invalid redefinition of 'PRSPI'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(935): error: Invalid redefinition of 'PRTIM1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(939): error: Invalid redefinition of 'SE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(940): error: Invalid redefinition of 'SM0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(941): error: Invalid redefinition of 'SM1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(942): error: Invalid redefinition of 'SM2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(945): error: Invalid redefinition of 'GPIOR20'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(946): error: Invalid redefinition of 'GPIOR21'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(947): error: Invalid redefinition of 'GPIOR22'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(948): error: Invalid redefinition of 'GPIOR23'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(949): error: Invalid redefinition of 'GPIOR24'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(950): error: Invalid redefinition of 'GPIOR25'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(951): error: Invalid redefinition of 'GPIOR26'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(952): error: Invalid redefinition of 'GPIOR27'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(955): error: Invalid redefinition of 'GPIOR10'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(956): error: Invalid redefinition of 'GPIOR11'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(957): error: Invalid redefinition of 'GPIOR12'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(958): error: Invalid redefinition of 'GPIOR13'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(959): error: Invalid redefinition of 'GPIOR14'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(960): error: Invalid redefinition of 'GPIOR15'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(961): error: Invalid redefinition of 'GPIOR16'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(962): error: Invalid redefinition of 'GPIOR17'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(965): error: Invalid redefinition of 'GPIOR00'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(966): error: Invalid redefinition of 'GPIOR01'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(967): error: Invalid redefinition of 'GPIOR02'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(968): error: Invalid redefinition of 'GPIOR03'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(969): error: Invalid redefinition of 'GPIOR04'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(970): error: Invalid redefinition of 'GPIOR05'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(971): error: Invalid redefinition of 'GPIOR06'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(972): error: Invalid redefinition of 'GPIOR07'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(977): error: Invalid redefinition of 'LB1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(978): error: Invalid redefinition of 'LB2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(979): error: Invalid redefinition of 'BLB01'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(980): error: Invalid redefinition of 'BLB02'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(981): error: Invalid redefinition of 'BLB11'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(982): error: Invalid redefinition of 'BLB12'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(987): error: Invalid redefinition of 'CKSEL0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(988): error: Invalid redefinition of 'CKSEL1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(989): error: Invalid redefinition of 'CKSEL2'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(990): error: Invalid redefinition of 'CKSEL3'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(991): error: Invalid redefinition of 'SUT0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(992): error: Invalid redefinition of 'SUT1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(993): error: Invalid redefinition of 'CKOUT'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(994): error: Invalid redefinition of 'CKDIV8'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(997): error: Invalid redefinition of 'BOOTRST'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(998): error: Invalid redefinition of 'BOOTSZ0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(999): error: Invalid redefinition of 'BOOTSZ1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1000): error: Invalid redefinition of 'EESAVE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1001): error: Invalid redefinition of 'WDTON'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1002): error: Invalid redefinition of 'SPIEN'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1007): error: Invalid redefinition of 'RSTDISBL'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1008): error: Invalid redefinition of 'BODLEVEL0'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1009): error: Invalid redefinition of 'BODLEVEL1'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1014): warning: .def: 'XH' redefinition (r27->r27)
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1014): warning: Register r27 already defined by the .DEF directive
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1015): warning: .def: 'XL' redefinition (r26->r26)
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1015): warning: Register r26 already defined by the .DEF directive
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1016): warning: .def: 'YH' redefinition (r29->r29)
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1016): warning: Register r29 already defined by the .DEF directive
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1017): warning: .def: 'YL' redefinition (r28->r28)
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1017): warning: Register r28 already defined by the .DEF directive
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1018): warning: .def: 'ZH' redefinition (r31->r31)
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1018): warning: Register r31 already defined by the .DEF directive
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1019): warning: .def: 'ZL' redefinition (r30->r30)
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1019): warning: Register r30 already defined by the .DEF directive
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1024): error: Invalid redefinition of 'FLASHEND'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1025): error: Invalid redefinition of 'IOEND'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1026): error: Invalid redefinition of 'SRAM_START'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1027): error: Invalid redefinition of 'SRAM_SIZE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1028): error: Invalid redefinition of 'RAMEND'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1029): error: Invalid redefinition of 'XRAMEND'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1030): error: Invalid redefinition of 'E2END'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1031): error: Invalid redefinition of 'EEPROMEND'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1032): error: Invalid redefinition of 'EEADRBITS'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1041): error: Invalid redefinition of 'NRWW_START_ADDR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1042): error: Invalid redefinition of 'NRWW_STOP_ADDR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1043): error: Invalid redefinition of 'RWW_START_ADDR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1044): error: Invalid redefinition of 'RWW_STOP_ADDR'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1045): error: Invalid redefinition of 'PAGESIZE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1046): error: Invalid redefinition of 'FIRSTBOOTSTART'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1047): error: Invalid redefinition of 'SECONDBOOTSTART'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1048): error: Invalid redefinition of 'THIRDBOOTSTART'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1049): error: Invalid redefinition of 'FOURTHBOOTSTART'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1050): error: Invalid redefinition of 'SMALLBOOTSTART'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1051): error: Invalid redefinition of 'LARGEBOOTSTART'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1056): error: Invalid redefinition of 'INT0addr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1057): error: Invalid redefinition of 'PCI0addr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1058): error: Invalid redefinition of 'PCI1addr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1060): error: Invalid redefinition of 'OVF2addr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1061): error: Invalid redefinition of 'ICP1addr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1062): error: Invalid redefinition of 'OC1Aaddr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1063): error: Invalid redefinition of 'OC1Baddr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1064): error: Invalid redefinition of 'OVF1addr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1066): error: Invalid redefinition of 'OVF0addr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1067): error: Invalid redefinition of 'SPIaddr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1069): error: Invalid redefinition of 'URXCaddr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1071): error: Invalid redefinition of 'UDREaddr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1073): error: Invalid redefinition of 'UTXCaddr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1076): error: Invalid redefinition of 'ACIaddr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1077): error: Invalid redefinition of 'ADCCaddr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1078): error: Invalid redefinition of 'ERDYaddr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1079): error: Invalid redefinition of 'SPMRaddr'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here
+E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc(1081): error: Invalid redefinition of 'INT_VECTORS_SIZE'
+E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm(12): 'E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m325Pdef.inc' included form here

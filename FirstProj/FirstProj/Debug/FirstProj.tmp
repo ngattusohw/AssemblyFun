@@ -1,0 +1,28 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.6</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>E:\progs\AssemblyFun\FirstProj\FirstProj\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc</DIR>
+  <DIR>E:\Program Files (x86)\Atmel\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>E:/Program Files (x86)\Atmel\7.0\Packs\atmel\ATmega_DFP\1.2.132\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>E:\progs\AssemblyFun\FirstProj\FirstProj\Debug\FirstProj.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>FirstProj.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>FirstProj.map</FILE>
+  <FILE>FirstProj.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <start><FILE>E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm</FILE><LINE>12</LINE></start>
+  <addition><FILE>E:\progs\AssemblyFun\FirstProj\FirstProj\main.asm</FILE><LINE>17</LINE></addition>
+ </LABELS>
+</ASSEMBLER_INFO>
