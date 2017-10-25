@@ -4,21 +4,29 @@
 
 .include "m328Pdef.inc"
 init:
-	.def max=r16
+	.def n=r16
 	.def counter=r17
 	.def sum=r18
+	.def sumHigh=r20
+	.def hold=r12
 	
 main:
-	ldi max,15
+	ldi r19,15
+	sts 0x0100,r19
+	lds n,0x0100
 	ldi counter,1
 	clr sum
+	clr sumHigh
+	clr hold
 	
 loop:
-	cp max,counter
+	cp n,counter
 	brlo end
 	add sum,counter
+	adc sumHigh,hold
 	inc counter
 	rjmp loop
 	
 end: 
 	out PORTB,sum
+	out PORTC,sumHigh
