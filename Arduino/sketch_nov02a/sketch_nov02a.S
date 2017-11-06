@@ -8,21 +8,28 @@
 .global Time
 
 timer:
-L1: LDI R18, 255
+  ldi r17, 128
+L1: LDI R18, 100
+L2: ldi r19, 250
+L3:
     nop
     nop
+    dec r19
+    brne L3
     dec r18
+    brne L2
+    dec r17
     brne L1
-jmp Time
+ret
 
 setup:
-  ldi r16, 1
+  ldi r16, 0b00100000
   sts DDRB, r16
 
 loop:
-  ldi r17, 1
+  ldi r17, 0b00100000
   sts PORTB, r17
-Time: jmp timer
+  call timer
   ldi r17, 0b00000000
   sts PORTB, r17
   call timer
