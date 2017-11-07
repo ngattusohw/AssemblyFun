@@ -8,7 +8,7 @@
 .global Time
 
 timer:
-  ldi r17, 128
+  ldi r17, 5
 L1: LDI R18, 100
 L2: ldi r19, 250
 L3:
