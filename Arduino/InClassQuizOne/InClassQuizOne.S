@@ -3,12 +3,12 @@
 
 .global loop
 .global setup
-.global timer
+.global longTimer
+.global shortTimer
 .global again
 .global Time
+.global shortTime
 
-timer:
-  ldi r17, 5
 L1: LDI R18, 100
 L2: ldi r19, 250
 L3:
@@ -26,11 +26,26 @@ setup:
   ldi r16, 0b00100000
   sts DDRB, r16
 
+shortBlink:
+  ldi r17, 0b00100000
+  sts PORTB, r17
+  call shortTimer
+  ldi r17, 0b00000000
+  sts PORTB, r17
+  call shortTimer
+  jmp loop
+
 loop:
   ldi r17, 0b00100000
   sts PORTB, r17
-  call timer
+  call longTimer
   ldi r17, 0b00000000
   sts PORTB, r17
-  call timer
-  jmp loop
+  call longTimer
+  jmp shortBlink
+
+longTimer:
+  ldi r17, 250
+shortTimer:
+  ldi r17, 50
+
