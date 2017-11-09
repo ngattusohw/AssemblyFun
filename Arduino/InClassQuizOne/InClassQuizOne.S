@@ -74,12 +74,7 @@ loop:
   call dit
   call dit
 
-  nop
-  nop
-  nop
-  nop
-  nop
-  nop
-  nop
+  call timer
+  call timer
   
   jmp loop
