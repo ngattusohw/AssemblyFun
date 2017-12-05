@@ -88,9 +88,8 @@ setup:
   sts DDRB, r16
 
 loop:
+  call red
   call green
   call yellow
-  call red
-  
   
   jmp loop

@@ -51,10 +51,14 @@ ret
 
 da:
   ldi r17, 0b00100000
+  ldi r26, 0b00001000
   sts PORTB, r17
+  sts PORTB, r26
   call timer
   ldi r17, 0b00000000
+  ldi r26, 0b00000000
   sts PORTB, r17
+  sts PORTB, r26
   call timer
 ret
 
