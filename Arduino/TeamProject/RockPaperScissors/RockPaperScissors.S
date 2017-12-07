@@ -7,6 +7,8 @@
 .global setup
 .global loop
 
+
+;;;this is basic code to just simply toggle the light on a button switch
 setup:
   ldi r16, 0b11111111
   ldi r17, 0b00000000
