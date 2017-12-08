@@ -10,23 +10,70 @@
 
 ;;;this is basic code to just simply toggle the light on a button switch
 setup:
-  ldi r16, 0b11111111
-  ldi r17, 0b00000000
-  ldi r18, 0b00100000
-  out DDRB, r16
+  clr r17
+  ser r18
+  clr r19
+  out DDRB, r18
+  out PORTB, r17
   out DDRD, r17
   out PORTD, r17
 
-loop:
-  out PORTB, r16
-
-one:
+ cpi r19, 2
+  breq resetRandom
+  inc r19
+  
+button1:
+  inc r19
   sbis PIND, 2
-  jmp two
-  out PORTB, r17
-  jmp one
+  jump button2
+  jmp rock
+button2: 
+  sbis PIND, 3 
+  jmp paper
+  sbis PIND, 4 
+  jmp scissors
+  jmp loop
 
-two: 
+resetRandom:
+  ldi r19, 0
+  jmp loop
+ 
+
+rock: 
+  cpi r19, 0
+  breq tie
+  cpi r19, 2
+  breq win
+  jmp lose
+
+  
+paper: 
+  cpi r19, 1
+  breq tie
+  cpi r19, 0
+  breq win
+  jmp lose
+  
+scissors: 
+  cpi r19, 2
+  breq tie
+  cpi r19, 1
+  breq win
+  jmp lose
+
+tie:
+  ldi r20, 0b00010000
+  out PORTB, r20
+  ret
+
+win:
+  ldi r16, 0b00100000
   out PORTB, r16
+  ret
+  
+lose:
+  ldi r21, 0b00001000 ;pin 11 (lose)
+  out PORTB, r21
+  ret
 
-jmp one
+jmp loop
