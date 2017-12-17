@@ -1,79 +1,93 @@
 #define __SFR_OFFSET 0
-
 #include "avr/io.h"
-#include <avr/portpins.h>
 
 .text
 .global setup
 .global loop
 
-
-;;;this is basic code to just simply toggle the light on a button switch
 setup:
+  ser r16
+  out DDRB,r16
   clr r17
-  ser r18
+  out PORTB,r17
+  out DDRD,r17
+  out PORTD,r17
+  clr r18
   clr r19
-  out DDRB, r18
-  out PORTB, r17
-  out DDRD, r17
-  out PORTD, r17
-
- cpi r19, 2
-  breq resetRandom
+  clr r21
+  clr r20
+      
+loop:
+main:
+  cpi r19,127
+  breq clear_19
+back:
   inc r19
-  
+  sbis PIND,2
+  jmp button1
+  ldi r20,2
+  jmp tmp
 button1:
-  inc r19
-  sbis PIND, 2
-  jump button2
-  jmp rock
-button2: 
-  sbis PIND, 3 
-  jmp paper
-  sbis PIND, 4 
+  sbis PIND,3
+  jmp button2
+  ldi r20,3
+  jmp tmp
+button2:
+  sbis PIND,4
+  jmp changer18
+  ldi r20,4
+tmp:
+  cp r18,r16
+  breq main
+  call RPS
+  clr r20
+  ldi r18,0xFF
+  jmp main
+changer18:
+  ldi r18,0x00
+  jmp main
+clear_19:
+  clr r19
+  jmp back
+
+RPS:
+  out PORTB,r17
+  clr r21
+  cpi r19,42
+  brlt rock
+  cpi r19,84
+  brlt paper
   jmp scissors
-  jmp loop
 
-resetRandom:
-  ldi r19, 0
-  jmp loop
- 
-
-rock: 
-  cpi r19, 0
+rock:
+  cpi r20,4
   breq tie
-  cpi r19, 2
+  cpi r20,2
   breq win
   jmp lose
-
-  
-paper: 
-  cpi r19, 1
+paper:
+  cpi r20,3
   breq tie
-  cpi r19, 0
+  cpi r20,4
   breq win
   jmp lose
-  
-scissors: 
-  cpi r19, 2
+scissors:
+  cpi r20,2
   breq tie
-  cpi r19, 1
+  cpi r20,3
   breq win
   jmp lose
-
-tie:
-  ldi r20, 0b00010000
-  out PORTB, r20
-  ret
 
 win:
-  ldi r16, 0b00100000
-  out PORTB, r16
+  ldi r21,0b00001000
+  out PORTB,r21
   ret
-  
+tie:
+  ldi r21,0b00010000
+  out PORTB,r21
+  ret
 lose:
-  ldi r21, 0b00001000 ;pin 11 (lose)
-  out PORTB, r21
+  ldi r21,0b00100000
+  out PORTB,r21
   ret
 
-jmp loop
